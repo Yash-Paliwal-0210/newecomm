@@ -12,11 +12,11 @@ const FAQ = () => {
       answer:
         "Shipping typically takes 2-7 business days, depending on your location. We’ll send you tracking details once your order is shipped.",
     },
-    {
-      question: "Do you offer free shipping?",
-      answer:
-        "Yes, we offer free shipping on orders above ₹999. For orders below this amount, a standard shipping fee applies.",
-    },
+    // {
+    //   question: "Do you offer free shipping?",
+    //   answer:
+    //     "Yes, we offer free shipping on orders above ₹999. For orders below this amount, a standard shipping fee applies.",
+    // },
     // {
     //   question: "How can I track my order?",
     //   answer:
@@ -40,7 +40,7 @@ const FAQ = () => {
     {
       question: "How do I contact customer support?",
       answer:
-        "You can reach us at brcollection333@gmail.com or call us at +91-7488244470. Our customer support team is available Monday to Saturday, 9:00 AM to 6:00 PM.",
+        "You can reach us at brcollection333@gmail.com or call us at +91-7488244470. Our customer support team is available Tuesday to Sunday, 10:00 AM to 6:00 PM.Monday will be off.",
     },
   ];
 

@@ -29,21 +29,21 @@ const ShippingPolicy = () => {
       <section className="mb-8">
         <h2 className="text-2xl font-semibold text-gray-700 mb-4">Shipping Charges</h2>
         <p className="text-gray-600">
-          Shipping charges are calculated at checkout based on your location and the weight of your order. Free shipping is available on orders above ₹1000.
+          Shipping charges are calculated at checkout based on your location and the weight of your order.
         </p>
       </section>
 
-      <section className="mb-8">
+      {/* <section className="mb-8">
         <h2 className="text-2xl font-semibold text-gray-700 mb-4">Order Tracking</h2>
         <p className="text-gray-600">
           Once your order is shipped, you will receive an email with a tracking number. You can use this number to track your order on our website.
         </p>
-      </section>
+      </section> */}
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold text-gray-700 mb-4">Delivery Issues</h2>
         <p className="text-gray-600">
-          If your package is delayed, lost, or arrives damaged, please contact our support team at <strong>support@brcollection.com</strong> or call us at +91-XXXXXXXXXX. We are here to assist you!
+          If your package is delayed, lost, or arrives damaged, please contact our support team at <strong>support@brcollection.com</strong> . We are here to assist you!
         </p>
       </section>
     </div>

@@ -21,7 +21,7 @@ const Home = () => {
             <Category />
             <BestSellingProducts />
             {/* <NewArrival /> */}
-            <Banner />
+            {/* <Banner /> */}
             <Footer />
             {/* <ProductListAdmin/> */}
         </div>
