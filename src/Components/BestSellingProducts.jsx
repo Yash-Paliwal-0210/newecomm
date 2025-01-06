@@ -104,7 +104,7 @@ export default function BestSellingProducts() {
         )
 
         }
-            <div className="cards sm:hidden flex-wrap xl:mx-32 py-6  flex-row flex gap-5 md:gap-10 justify-center mx-0 sm:mx-0 md:mx-10 lg:mx-10">
+            <div className="sm:hidden flex-wrap xl:mx-32 py-6 px-2 flex-row flex gap-5 md:gap-10 justify-center mx-0 sm:mx-0 md:mx-10 lg:mx-10">
                 {
                     products.slice(0,4).map((doc, index) => {
                         return (
@@ -126,7 +126,7 @@ export default function BestSellingProducts() {
                                 </div>
                                 <div className="flex items-center justify-between">
                                     <span className="text-sm  sm:text-3xl font-bold text-gray-900 ">Rs {doc.Price}</span>
-                                    <button onClick={() => handleAddToCart(doc)} className="text-white bg-red-500 hover:bg-red-600 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-3 py-1.5 sm:px-1.5 sm:py-2 text-center ">Add to cart</button>
+                                    <button onClick={() => handleAddToCart(doc)} className="text-white bg-red-500 hover:bg-red-600 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-1.5 py-2 text-center">Add to cart</button>
                                 </div>
                             </div>
                         </div>
