@@ -109,13 +109,13 @@ export default function BestSellingProducts() {
                     products.slice(0,4).map((doc, index) => {
                         return (
                             <div key={doc.Id} className="flex flex-row xl:hidden  bg-white border border-gray-200 rounded-lg shadow " style={{ width: "420px", height: "auto" }}>
-                            <a href="" onClick={() => navigateTo(`/Description/${doc.Id}`)} className="flex-shrink-0">
-                                <img className="w-40 h-40 object-cover rounded-l-lg" src={doc.FrontImage} alt="product image" onLoad={(e) => (e.target.style.visibility = 'visible')}
+                            
+                                <img onClick={() => navigateTo(`/Description/${doc.Id}`)} className="w-[12rem] h-40 object-cover rounded-l-lg" src={doc.FrontImage} alt="product image" onLoad={(e) => (e.target.style.visibility = 'visible')}
     style={{
       
       visibility: "hidden", // Hide image until loaded
     }}/>
-                            </a>
+                            
                             <div className="flex flex-col justify-between p-4 w-full">
                                 <div>
                                     <h5 onClick={() => navigateTo(`/Description/${doc.Id}`)} className="cursor-pointer text-sm sm:text-xl font-semibold tracking-tight text-gray-900 ">{doc.Name}</h5>

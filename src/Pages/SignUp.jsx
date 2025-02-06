@@ -74,7 +74,7 @@ const SignUp = () => {
       await setDoc(doc(db, 'Users', user.uid), {
         uid: user.uid,
         email: user.email,
-        username: register.username,
+        username: user.displayName,
         gender: register.gender,
         age: register.age,
         orders: [],

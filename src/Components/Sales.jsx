@@ -204,10 +204,11 @@ export default function Sales() {
             className="flex flex-row xl:hidden bg-white border border-gray-200 rounded-lg shadow "
             style={{ width: "420px", height: "auto" }}
           >
-            <a href="" className="flex-shrink-0">
+            
+           
               <img
                 onClick={() => navigateTo(`/Description/${doc.Id}`)}
-                className="w-40 h-40 object-cover rounded-l-lg"
+                className="w-[12rem] h-40 object-cover rounded-l-lg"
                 src={doc.FrontImage}
                 alt="product"
                 onLoad={(e) => (e.target.style.visibility = 'visible')}
@@ -217,7 +218,7 @@ export default function Sales() {
     }}
                 
               />
-            </a>
+            
             <div className="flex flex-col justify-between p-4 w-full">
               <div>
                 <h5

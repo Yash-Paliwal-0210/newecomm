@@ -129,7 +129,17 @@ const Checkout = () => {
             setZip('');
     
             // Show success message
-            toast.success('Order placed successfully!');
+            console.log("order places")
+            alert("Order Placed Successfully")
+            toast.success(`Order Placed Successfully`, {
+                  position: "top-right",
+                  autoClose: 3000,
+                  hideProgressBar: false,
+                  closeOnClick: true,
+                  pauseOnHover: true,
+                  draggable: true,
+                  progress: undefined,
+                });
             navigateTo(`/payment?q=${docRef.id}`);
         } catch (error) {
             // console.log(error);

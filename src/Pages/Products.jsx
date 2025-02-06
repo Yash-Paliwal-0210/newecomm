@@ -390,10 +390,10 @@ const Product = ({ doc }) => {
         className="flex flex-row xl:hidden sm:hidden  bg-white border border-gray-200 rounded-lg shadow "
         style={{ width: "420px", height: "auto" }}
       >
-        <div  className="flex-shrink-0">
+        <div  >
           <img
             onClick={() => navigateTo(`/Description/${doc.Id}`)}
-            className="cursor-pointer w-40 h-40 object-cover rounded-l-lg"
+            className="cursor-pointer w-[12rem] h-40 object-cover rounded-l-lg"
             src={doc.FrontImage}
             alt="product image"
             onLoad={(e) => (e.target.style.visibility = 'visible')}
@@ -465,7 +465,7 @@ const Product = ({ doc }) => {
         id={doc}
         className="w-full max-w-sm hidden sm:block bg-white border border-gray-200 rounded-lg shadow"
       >
-        <a href="">
+        
           <div className="h-48 flex items-center justify-center overflow-hidden rounded-t-lg">
             <img
               onClick={() => navigateTo(`/Description/${doc.Id}`)}
@@ -474,7 +474,7 @@ const Product = ({ doc }) => {
               alt="product image"
             />
           </div>
-        </a>
+        
         <div className="px-5 pb-5">
           <div>
             <h5
